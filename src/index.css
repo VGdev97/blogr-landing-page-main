@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Epilogue:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Overpass:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Space+Grotesk:wght@300..700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Epilogue:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Overpass:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Space+Grotesk:wght@300..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Ubuntu", sans-serif;
+}
+
+button {
+  font-family: "Ubuntu", sans-serif;
+}
+
+a {
+  font-family: "Ubuntu", sans-serif;
+  outline: none;
+}
+
+p {
+  font-family: "Overpass", sans-serif;
+}
+
+.bg {
+  background-size: 150%;
+  background-position: 45.5% 53%;
+}
+
+.bg-big {
+  background-size: 150%;
+  background-position: 45.5% 53%;
+}
+
+.section {
+  background: url("./assets/bg-pattern-circles.svg");
+  background-repeat: no-repeat;
+  background-size: 50% auto;
+  background-color: #3f4164;
+}
+
+.section-mobile {
+  background: url("./assets/bg-pattern-circles.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: -17% 50%;
+  background-color: #3f4164;
+}
+
+/* font-family: "Ubuntu", sans-serif;
+font-family: "Overpass", sans-serif; */
